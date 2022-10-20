@@ -562,12 +562,12 @@ h1 {
   }
 
   .skills-container {
-    width: 95%;
+    width: 90%;
     display: grid;
     gap: 24px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 1164px;
+    height: 754px;
     margin: 0 auto;
   }
 
