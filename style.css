@@ -3,7 +3,11 @@
   box-sizing: border-box;
 }
 
-.top-btn {
+html {
+  scroll-behavior: smooth;
+}
+
+button {
   background-color: black;
   color: #fff7f0;
   width: 228px;
@@ -15,6 +19,10 @@
   font-size: 16px;
   line-height: 28px;
   border: none;
+  cursor: pointer;
+}
+
+.top-btn {
   position: absolute;
   top: 38px;
   right: 164px;
@@ -145,4 +153,186 @@ h1 {
   color: white;
   font-size: 24px;
   font-family: "Plus Jakarta Sans";
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 136px auto 0;
+}
+.right-side {
+  width: 50%;
+}
+
+.right-side > h2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #030303;
+}
+
+.right-side > p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #7a746e;
+  margin: 5px;
+}
+
+.right-side > p:first-of-type {
+  margin-top: 34px;
+}
+
+#slider {
+  height: 660px;
+  background-color: #62c4b7;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: black;
+}
+
+.subcontainer {
+  width: 90%;
+  margin: auto;
+}
+
+.port-title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #030303;
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-bottom: -50px;
+}
+
+.slider-img {
+  width: 100%;
+  height: 275px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.slider-img:hover {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.slider-img a {
+  opacity: 0;
+  text-decoration: none;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 1rem;
+  width: 90%;
+  color: white;
+}
+
+.slider-img:hover a {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.img-1 {
+  background-image: url("./images/retail.png");
+}
+.img-2 {
+  background-image: url("./images/aec.png");
+}
+.img-3 {
+  background-image: url("./images/hiveDFS.png");
+}
+.img-4 {
+  background-image: url("./images/planets.png");
+}
+.img-5 {
+  background-image: url("./images/nat-parks.png");
+}
+.img-6 {
+  background-image: url("./images/coffeeroasters.png");
+}
+.img-7 {
+  background-image: url("./images/sync.png");
+}
+.img-8 {
+  background-image: url("./images/falafel.png");
+}
+
+.tns-outer {
+  display: flex;
+  flex-direction: column;
+}
+
+.tns-controls {
+  position: relative;
+  top: 475px;
+  align-self: center;
+}
+
+.tns-controls > button {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.tns-controls > button > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+}
+
+.footer__social-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem 0;
+  list-style: none;
+  margin: 0;
+}
+
+.footer__social-link-item:not(:last-of-type) {
+  margin-right: 2rem;
+}
+
+.footer__social-image {
+  height: 4rem;
+}
+
+.footer__github-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__github-buttons iframe {
+  height: 2.5rem;
+  width: 80px;
+  transform: translateY(3px);
 }
