@@ -263,6 +263,9 @@ h1 {
 .img-8 {
   background-image: url("./images/rockpaper.png");
 }
+.img-9 {
+  background-image: url("./images/countries-app.png");
+}
 
 .tns-outer {
   display: flex;
