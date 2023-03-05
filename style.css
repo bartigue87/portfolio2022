@@ -240,30 +240,33 @@ h1 {
 }
 
 .img-1 {
-  background-image: url("./images/retail.png");
+  background-image: url("./images/nat-park-info.png");
 }
 .img-2 {
-  background-image: url("./images/aec.png");
+  background-image: url("./images/retail.png");
 }
 .img-3 {
-  background-image: url("./images/hiveDFS.png");
+  background-image: url("./images/aec.png");
 }
 .img-4 {
-  background-image: url("./images/planets.png");
+  background-image: url("./images/hiveDFS.png");
 }
 .img-5 {
-  background-image: url("./images/nat-parks.png");
+  background-image: url("./images/planets.png");
 }
 .img-6 {
-  background-image: url("./images/coffeeroasters.png");
+  background-image: url("./images/nat-parks.png");
 }
 .img-7 {
-  background-image: url("./images/sync.png");
+  background-image: url("./images/coffeeroasters.png");
 }
 .img-8 {
-  background-image: url("./images/rockpaper.png");
+  background-image: url("./images/sync.png");
 }
 .img-9 {
+  background-image: url("./images/rockpaper.png");
+}
+.img-10 {
   background-image: url("./images/countries-app.png");
 }
 

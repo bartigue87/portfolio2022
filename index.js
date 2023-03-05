@@ -1,6 +1,14 @@
 const data = [
   {
     id: 1,
+    link: "https://national-park-info-site.web.app/",
+    description:
+      "Full stack project that uses an api I built and displays information of all the National Parks in the U.S.",
+    name: "National Park Info Site",
+    languages: "React/Node/MongoDB",
+  },
+  {
+    id: 2,
     link: "https://www.verizon.com/business/solutions/industry/retail/digital-connectivity-in-business/",
     description:
       "Simulation built for Verizon showcasing their 'Connected Retail' product. Embedded on their website.",
@@ -8,7 +16,7 @@ const data = [
     languages: "HTML/CSS/JavaScript",
   },
   {
-    id: 2,
+    id: 3,
     link: "https://business.adobe.com/resources/personalization-at-scale-interactive-tour/thank-you.html?faas_unique_submission_id=092D4D24-1857-1562-A7CD-0BBB96609D2A",
     description:
       "Simulation built for Adobe showcasing their 'Adobe Experience Cloud' product. Embedded on their website.",
@@ -16,7 +24,7 @@ const data = [
     languages: "HTML/CSS/JavaScript",
   },
   {
-    id: 3,
+    id: 4,
     link: "https://dfs-hive.web.app",
     description:
       "Fun personal website I am working on. Will host a bankroll manager tool and articles I write to help with daily fantasy sports and betting.",
@@ -24,7 +32,7 @@ const data = [
     languages: "React/Node",
   },
   {
-    id: 4,
+    id: 5,
     link: "https://bartigue87.github.io/planets-fact-site/html/saturn.html",
     description:
       "Multi-page responsive website that displays facts about the planets in the solar system.",
@@ -32,7 +40,7 @@ const data = [
     languages: "HTML/CSS/JavaScript",
   },
   {
-    id: 5,
+    id: 6,
     link: "https://nat-parks-journal.web.app/",
     description:
       "Personal journal documenting my visits to the National Parks in the USA",
@@ -40,7 +48,7 @@ const data = [
     languages: "React",
   },
   {
-    id: 6,
+    id: 7,
     link: "https://bartigue87.github.io/coffeeroasters/",
     description:
       "3 page subscription site with responsiveness and an interactive subscription page.",
@@ -48,7 +56,7 @@ const data = [
     languages: "HTML/CSS/JavaScript",
   },
   {
-    id: 7,
+    id: 8,
     link: "https://www.poly.com/us/en/products/phones/sync",
     description:
       "Simulation built for Poly showcasing their 'Sync' product. Embedded on their website.",
@@ -56,14 +64,14 @@ const data = [
     languages: "HTML/CSS/JavaScript",
   },
   {
-    id: 8,
+    id: 9,
     link: "https://bartigue87.github.io/rock-paper-scissors-app/",
     description: "Rock Paper Scissors game",
     name: "Rock Paper Scissors App",
     languages: "HTML/CSS/JavaScript",
   },
   {
-    id: 9,
+    id: 10,
     link: "https://country-api-app.web.app",
     description:
       "App displaying all countries with the use of an api and the ability to search and filter.",
