@@ -116,6 +116,10 @@ button {
   color: white;
 }
 
+.sidenote {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .slider-img {
     width: 100%;
@@ -150,5 +154,12 @@ button {
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+  }
+  .sidenote {
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 10px;
   }
 }
