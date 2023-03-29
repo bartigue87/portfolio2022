@@ -84,20 +84,20 @@ const mySlider = document.querySelector(".my-slider");
 
 const elements = data.map((element) => {
   return `<div class="slide">
-  <div class="slider-img img-${element.id}">
-      <a
-          href=${element.link}>
-          <p>${element.description}</p>
-          <br>
-          <p>Click to visit</p>
-      </a>
-  </div>
-  <br>
-  <div>
-      <h3>${element.name}</h3>
-      <p>${element.languages}</p>
-  </div>
-</div>`;
+    <div class="slider-img img-${element.id}">
+        <a
+            href=${element.link}>
+            <p>${element.description}</p>
+            <br>
+            <p>Click to visit</p>
+        </a>
+    </div>
+    <br>
+    <div>
+        <h3>${element.name}</h3>
+        <p>${element.languages}</p>
+    </div>
+  </div>`;
 });
 
 for (let i = 0; i < elements.length; i++) {
@@ -120,11 +120,11 @@ let slider = tns({
     },
     1024: {
       items: 3,
-      gutter: 20,
+      gutter: 15,
     },
     768: {
       items: 2,
-      gutter: 20,
+      gutter: 15,
     },
     480: {
       items: 1,
