@@ -1,6 +1,14 @@
 const data = [
   {
     id: 1,
+    link: "https://prop-hive.web.app",
+    description:
+      "Prop betting site simulator. Utilizes various React hooks. May make this into a full stack project in the future",
+    name: "Prop Hive",
+    languages: "React",
+  },
+  {
+    id: 2,
     link: "https://national-park-info-site.web.app/",
     description:
       "Full stack project that uses an api I built and displays information of all the National Parks in the U.S.",
@@ -8,7 +16,7 @@ const data = [
     languages: "React/Node/MongoDB",
   },
   {
-    id: 2,
+    id: 3,
     link: "https://www.verizon.com/business/solutions/industry/retail/digital-connectivity-in-business/",
     description:
       "Simulation built for Verizon showcasing their 'Connected Retail' product. Embedded on their website.",
@@ -16,20 +24,12 @@ const data = [
     languages: "HTML/CSS/JavaScript",
   },
   {
-    id: 3,
+    id: 4,
     link: "https://business.adobe.com/resources/personalization-at-scale-interactive-tour/thank-you.html?faas_unique_submission_id=092D4D24-1857-1562-A7CD-0BBB96609D2A",
     description:
       "Simulation built for Adobe showcasing their 'Adobe Experience Cloud' product. Embedded on their website.",
     name: "Adobe Experience Cloud 'Sim'",
     languages: "HTML/CSS/JavaScript",
-  },
-  {
-    id: 4,
-    link: "https://dfs-hive.web.app",
-    description:
-      "Fun personal website I am working on. Will host a bankroll manager tool and articles I write to help with daily fantasy sports and betting.",
-    name: "DFS Hive",
-    languages: "React/Node",
   },
   {
     id: 5,
@@ -109,7 +109,7 @@ for (let i = 0; i < elements.length; i++) {
 let slider = tns({
   container: ".my-slider",
   slideBy: "1",
-  speed: 600,
+  speed: 1400,
   nav: false,
   autoplay: true,
   autoplayButtonOutput: false,

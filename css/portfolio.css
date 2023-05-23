@@ -60,16 +60,16 @@ button {
 }
 
 .img-1 {
-  background-image: url("../images/nat-park-info.png");
+  background-image: url("../images/prop-hive.png");
 }
 .img-2 {
-  background-image: url("../images/retail.png");
+  background-image: url("../images/nat-park-info.png");
 }
 .img-3 {
-  background-image: url("../images/aec.png");
+  background-image: url("../images/retail.png");
 }
 .img-4 {
-  background-image: url("../images/hiveDFS.png");
+  background-image: url("../images/aec.png");
 }
 .img-5 {
   background-image: url("../images/planets.png");
