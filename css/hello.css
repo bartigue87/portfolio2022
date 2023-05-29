@@ -9,6 +9,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 15px;
 }
 
 .info > p {
@@ -30,10 +31,10 @@ main {
   color: #4d5bce;
 }
 
-.introduction > p {
+.introduction > div > p {
   font-weight: 500;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 31px;
 }
 
 .const {
